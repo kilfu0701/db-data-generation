@@ -1,0 +1,10 @@
+http://surnames.behindthename.com/names/usage/english
+
+
+var x = $('.browsename > b > a');
+var y = [];
+$.each(x, function(k, v) {
+  y.push($(v).clone().children().remove().end().text().trim());
+});
+JSON.stringify(y);
+
