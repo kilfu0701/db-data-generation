@@ -1,2 +1,2 @@
-# db-data-generation
-Auto generate some data into DB. Make testing more easily.
+# node-data-generation
+Auto generate some data. Make testing more easily.
